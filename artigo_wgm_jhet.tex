@@ -73,10 +73,11 @@ Correspondence: wellington.maiberg@gmail.com.
 ORCID --- W.\,G.\,Maiberg: 0009-0002-7236-4367;
 I.\,R.\,M.\,de Oliveira: 0009-0006-9940-4532.
 The authors thank Prof.\ Guilherme Armando Pereira for supervision.
-All replication materials are available from the corresponding author
-upon request.\par}
+Replication materials (scripts, data, figures) are available at
+\url{https://github.com/trovaodooeste/adam-smith-nlp}.\par}
 
-\vspace{2em}
+\newpage
+\setcounter{page}{1}
 
 \begin{center}{\normalsize\bfseries Abstract}\end{center}
 
@@ -114,7 +115,6 @@ philosophy---a result that aligns with the scholarly consensus
 against the dichotomy reading of the Adam Smith Problem.
 
 \newpage
-\setcounter{page}{1}
 
 % =============================================================
 \section{Introduction}
@@ -367,7 +367,7 @@ The analysis was conducted in R~4.2.3 \citep{Rcoreteam2023}.
 The pipeline uses \textit{tidytext} \citep{Silge2016} for tokenization
 and dictionary scoring, \textit{topicmodels} \citep{Grun2011} for LDA,
 and \textit{quanteda.textstats} \citep{Benoit2018} for readability.
-All code and data are available from the author.
+All code and data are available at \url{https://github.com/trovaodooeste/adam-smith-nlp}.
 
 \textit{LM sentiment scores.} After removing stop words and numeric
 tokens, we join the clean token list against the 2018 LM Master

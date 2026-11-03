@@ -1,0 +1,26 @@
+# LaTeX auxiliares
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# R
+*.rds
+.Rhistory
+.RData
+
+# Claude Code
+CLAUDE.md
+.claude/
+
+# Versão blind (somente para submissão)
+artigo_wgm_blind.tex
+artigo_wgm_blind.bbl
+artigo_wgm.tex
+artigo_wgm.bbl
+cover_letter.tex
+cover_letter.bbl
